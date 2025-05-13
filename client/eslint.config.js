@@ -23,6 +23,13 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      'no-unused-vars': 'off',
     },
-  },
+  }
 )
+
+module.exports = {
+  rules: {
+    'no-unused-vars': 'off',
+  },
+}
